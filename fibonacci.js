@@ -17,7 +17,7 @@ nth = (n-1)th + (n-2)th
 const fibonacci=[0,1];
 
 
-for(let i = 2; i<=8; i++)
+for(let i = 2; i<8; i++)
 {
     fibonacci[i] = fibonacci[i-1] + fibonacci[i-2];
 
