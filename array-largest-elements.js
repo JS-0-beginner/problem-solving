@@ -1,4 +1,4 @@
-/// pc-array-large-small.js \\\
+/// array-largest-elements.js \\\
 
 /// for positive numbers
 
