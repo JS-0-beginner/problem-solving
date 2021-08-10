@@ -37,10 +37,12 @@ console.log('If any duplicate comes it will reveal itself.');
 console.log('');
 
 const selected = [];
-for (i = 0; i <= 10; i++) {
+for (i = 0; i <= 10; i++) 
+{
   const random = Math.random() * 100;
   const picked = Math.round(random);
   // console.log(selected);
+  
   if(selected.indexOf(picked)==-1)
   {
     selected.push(picked);
@@ -49,13 +51,13 @@ for (i = 0; i <= 10; i++) {
   {
     // console.log('');
     console.log('Here,');
+
     console.log(selected);
+
     console.log('Duplicate :',picked);
     console.log('');
   }
 }
-console.log('');
-console.log('');
 console.log('');
 console.log('Here are the selected ones, without duplicates.');
 console.log(selected);
